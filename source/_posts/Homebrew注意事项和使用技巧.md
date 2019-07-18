@@ -5,9 +5,6 @@ tags:
     - Homebrew
     - Mac
 ---
-
-**该文章记录Homebrew的一些使用注意事项和使用技巧**
-<!--more-->
 # Homebrew 镜像使用帮助
 ## 替换现有上游
 ```shell
