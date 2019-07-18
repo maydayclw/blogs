@@ -23,12 +23,12 @@ tags:
 4. onuncaught（= y或n）指明出现未捕获的异常后，是否中断JVM的执行
 
 ## IDEA远程调试配置
-![](http://ww1.sinaimg.cn/large/006tNc79ly1g5491exmluj317u0u0dmt.jpg)
 1. 打开Inteliij IDEA，顶部菜单栏选择Run-> Edit Configurations，进入下图的运行/调试配置界面;点击左上角'+'号，选择Remote。
-![](http://ww1.sinaimg.cn/large/006tNc79ly1g5493k7ippj317u0u0q6u.jpg)
+![](http://ww1.sinaimg.cn/large/006tNc79ly1g5491exmluj317u0u0dmt.jpg)
 2. 分别填写参数：Name，Host，Port；选择需要运行的模块。
-![](http://ww1.sinaimg.cn/large/006tNc79ly1g5495o0sfoj30c401sq2u.jpg)
+![](http://ww1.sinaimg.cn/large/006tNc79ly1g5493k7ippj317u0u0q6u.jpg)
 3. 选择配置的运行方式，点击Debug方式运行。
+![](http://ww1.sinaimg.cn/large/006tNc79ly1g5495o0sfoj30c401sq2u.jpg)
 ## 断点注意事项
 由于测试环境可能是多个人在跑，为了尽可能少的影响别人，可以将断点的模式改为Thread，这样就不会阻断其它线程的运行。
 ![](http://ww4.sinaimg.cn/large/006tNc79ly1g5498m45xfj30ne0agjry.jpg)
